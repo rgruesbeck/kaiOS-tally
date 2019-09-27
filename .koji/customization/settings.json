@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "name": "Tally",
+    "incrementKey": "Digit5",
+    "decrementKey": "Digit4",
+    "resetKey": "Digit6",
+    "instructions": "Keys: 5(+) 4(-) 6(zero)",
+    "locale": "en-US",
+    "fontFamily": "Be Vietnam"
+  },
+  "@@editor": [
+    {
+      "key": "settings",
+      "name": "App settings",
+      "icon": "⚙️",
+      "source": "settings.json",
+      "fields": [
+        {
+          "key": "name",
+          "name": "App name",
+          "type": "text"
+        },
+        {
+          "key": "incrementKey",
+          "name": "Increment Key",
+          "type": "text"
+        },
+        {
+          "key": "decrementKey",
+          "name": "Decrement Key",
+          "type": "text"
+        },
+        {
+          "key": "resetKey",
+          "name": "Reset Key",
+          "type": "text"
+        },
+        {
+          "key": "instructions",
+          "name": "Instructions",
+          "type": "text"
+        },
+        {
+          "key": "locale",
+          "name": "Locale",
+          "type": "text"
+        },
+        {
+          "key": "fontFamily",
+          "name": "Google Font Family",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
